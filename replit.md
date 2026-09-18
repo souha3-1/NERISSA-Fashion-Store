@@ -1,10 +1,11 @@
-# [Project name]
+# NERISSA Fashion Store
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+Frontend-only Algerian women's fashion storefront prototype for NERISSA, with editorial product discovery and simulated shopping interactions.
 
 ## Run & Operate
 
 - `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
+- `pnpm --filter @workspace/nerissa-store run dev` — run the NERISSA storefront preview
 - `pnpm run typecheck` — full typecheck across all packages
 - `pnpm run build` — typecheck + build all packages
 - `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
@@ -14,6 +15,7 @@ _Replace the heading above with the project's name, and this line with one sente
 ## Stack
 
 - pnpm workspaces, Node.js 24, TypeScript 5.9
+- Frontend: React + Vite, Wouter, Tailwind CSS, Lucide React
 - API: Express 5
 - DB: PostgreSQL + Drizzle ORM
 - Validation: Zod (`zod/v4`), `drizzle-zod`
@@ -22,24 +24,35 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/nerissa-store/src/App.tsx` — storefront routes and reusable UI
+- `artifacts/nerissa-store/src/data/products.ts` — editable mock catalog and product media
+- `artifacts/nerissa-store/src/store.tsx` — localStorage-persisted cart and wishlist state
+- `artifacts/nerissa-store/src/index.css` — NERISSA visual tokens, typography, and responsive styling
+- `artifacts/nerissa-store/public/images/` — generated fashion campaign and product imagery
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The prototype is frontend-only by design; cart and wishlist persistence use localStorage rather than a backend.
+- Product data stays separate from UI so the mock catalog can be replaced without restructuring the storefront.
+- Wouter handles route-level shopping flows while the shared store context keeps cart and wishlist state consistent across pages.
+- All visible prices use Algerian Dinar formatting and the brand palette is centralized in the stylesheet.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+NERISSA presents editorial fashion collections for the Algerian market. Visitors can browse by collection, search and filter products, inspect product details, save wishlist items, add items to a simulated shopping bag, and submit demo newsletter/contact forms.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- Use “NERISSA” consistently as the official brand name.
+- Keep the visual identity original, premium, minimal, and fashion-editorial rather than copying any reference brand.
+- Use #662222, #842A3B, #A3485A, and #F5DAA7 as the core palette.
+- Keep Algeria as the market context and display prices in DA / DZD only.
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- This is a prototype: do not add real payments, authentication, email delivery, or production commerce infrastructure without an explicit request.
 
 ## Pointers
 
 - See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+- See `artifacts/nerissa-store/src/data/products.ts` before editing product copy, prices, or imagery.

@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "NERISSA Fashion Store"
+description = "A premium Algerian women's fashion storefront prototype for NERISSA, with editorial product discovery, search, wishlist, simulated cart interactions, and responsive shopping flows."
+version = "1.0.0"
+id = "artifacts/nerissa-store"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21422
+
+[services.development]
+run = "pnpm --filter @workspace/nerissa-store run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/nerissa-store", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/nerissa-store/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21422"
+BASE_PATH = "/"

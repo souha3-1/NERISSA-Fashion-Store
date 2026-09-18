@@ -1,0 +1,1205 @@
+# PROJECT: Premium Women's Clothing Online Store — Algerian Fashion Brand
+
+## 1. PROJECT OVERVIEW
+
+Build a beautiful, modern, responsive e-commerce website prototype for a women's clothing brand based in Algeria.
+
+The store sells women's fashion clothing, including:
+
+* Dresses.
+* Skirts.
+* Tops.
+* Shirts.
+* Blouses.
+* Pants.
+* Co-ord sets.
+* Modest fashion.
+* Everyday outfits.
+* Seasonal collections.
+
+The website should feel like a premium independent women's fashion brand with a strong visual identity, elegant product photography, and a polished online shopping experience.
+
+The design should be inspired by the provided Nerissa Brand Instagram screenshots, especially the sophisticated fashion-brand presentation, editorial photography, minimal layout, and consistent branding.
+
+DO NOT CLONE THE INSTAGRAM PAGE OR COPY THE BRAND.
+
+Create an original fashion e-commerce website that translates the same visual mood into a unique brand.
+
+IMPORTANT: THIS IS ONLY A PROTOTYPE.
+
+Use mock products, mock prices, and simulated shopping interactions. Do not build unnecessary production infrastructure.
+
+If an existing project already exists, modify the existing project rather than rebuilding it from scratch.
+
+Preserve existing working functionality, source code, and project structure wherever possible.
+
+---
+
+# 2. TARGET MARKET AND USERS
+
+The target market is Algeria.
+
+The store is designed for women shopping for modern, elegant, and stylish clothing.
+
+Target users:
+
+* Young women.
+* Students.
+* Working women.
+* Women looking for everyday outfits.
+* Women looking for modest and elegant fashion.
+* Customers shopping for special occasions.
+* Customers interested in seasonal fashion collections.
+
+All prices must be displayed in Algerian Dinar.
+
+Use:
+
+* DA as the visible currency symbol.
+* DZD as the currency code where appropriate.
+
+Example prices:
+
+* 4,500 DA.
+* 6,900 DA.
+* 8,500 DA.
+* 12,000 DA.
+
+Do not use USD, EUR, or other currencies.
+
+Use Algeria as the country context.
+
+For delivery information, use editable demo content such as:
+
+"Delivery available across Algeria."
+
+Do not invent real delivery fees, addresses, or company details.
+
+---
+
+# 3. BRAND / VISUAL IDENTITY
+
+## Overall visual direction
+
+Create a sophisticated women's fashion brand inspired by the provided Nerissa Brand Instagram references.
+
+The visual style should combine:
+
+* Premium fashion boutique.
+* Minimal editorial design.
+* Elegant women's clothing.
+* Burgundy and cream branding.
+* High-quality outfit photography.
+* Clean product presentation.
+* Refined typography.
+* Strong brand consistency.
+* Modern feminine aesthetic.
+
+The website should feel:
+
+* Elegant.
+* Confident.
+* Sophisticated.
+* Feminine.
+* Premium.
+* Modern.
+* Approachable.
+
+Avoid making it look like:
+
+* A generic clothing template.
+* A childish fashion website.
+* A crowded marketplace.
+* A sportswear store.
+* A corporate SaaS website.
+
+The design should look like a real fashion brand website.
+
+---
+
+# 4. COLOR PALETTE
+
+Use the following exact colors as the main brand palette.
+
+### Primary dark burgundy
+
+#662222
+
+### Burgundy
+
+#842A3B
+
+### Rose
+
+#A3485A
+
+### Warm cream
+
+#F5DAA7
+
+Supporting colors:
+
+* Warm white: #FFF9F2
+* Soft cream: #FFF3DF
+* Dark text: #2D1717
+* Muted text: #765D5D
+* Light rose: #F4E1E1
+
+## Color usage
+
+### #662222 — Deep Burgundy
+
+Use for:
+
+* Main headings.
+* Primary buttons.
+* Important text.
+* Footer.
+* Strong brand elements.
+* Selected navigation states.
+
+### #842A3B — Burgundy
+
+Use for:
+
+* Secondary buttons.
+* Navigation accents.
+* Product badges.
+* Promotional elements.
+* Hover states.
+
+### #A3485A — Rose
+
+Use for:
+
+* Decorative accents.
+* Small labels.
+* Secondary highlights.
+* Promotional details.
+* Selected category backgrounds.
+
+### #F5DAA7 — Warm Cream
+
+Use for:
+
+* Hero backgrounds.
+* Promotional banners.
+* Editorial sections.
+* Featured collection backgrounds.
+* Soft brand highlights.
+
+### Main website background
+
+Use warm white or soft cream as the main background.
+
+Use burgundy strategically for contrast.
+
+Do not make every section dark.
+
+Do not introduce unrelated bright colors.
+
+Maintain a disciplined and premium color hierarchy.
+
+---
+
+# 5. TYPOGRAPHY
+
+Use an elegant editorial typography system.
+
+Recommended:
+
+* Headings: Playfair Display, Cormorant Garamond, or a similar refined serif font.
+* Body text and navigation: Inter, DM Sans, or a clean sans-serif font.
+
+Typography should feel:
+
+* Fashion editorial.
+* Elegant.
+* Modern.
+* Refined.
+* Easy to read.
+
+Use:
+
+* Large elegant headings.
+* Clean navigation.
+* Strong product names.
+* Comfortable spacing.
+* Clear hierarchy.
+* Refined serif typography for important titles.
+
+Avoid:
+
+* Cartoonish fonts.
+* Excessive font styles.
+* Generic tech startup typography.
+* Overly playful typography.
+
+---
+
+# 6. INFORMATION ARCHITECTURE
+
+Create the following pages:
+
+1. Home.
+2. Shop All.
+3. New Arrivals.
+4. Dresses.
+5. Tops.
+6. Skirts.
+7. Pants.
+8. Co-ord Sets.
+9. Product Details.
+10. About Us.
+11. Contact.
+12. Cart.
+13. Wishlist.
+14. Search Results.
+
+Optional:
+
+* Sale.
+* Collections.
+* Modest Wear.the n
+
+Use React Router or an equivalent routing solution.
+
+All navigation links must work.
+
+---
+
+# 7. MAIN NAVIGATION
+
+Create a clean, premium fashion navigation bar.
+
+### Left
+
+* Brand logo / brand name placeholder.
+
+Use a text-based logo if no actual logo is provided.
+
+The logo should feel elegant and minimal.
+
+### Center
+
+* Home.
+* Shop.
+* New Arrivals.
+* Collections.
+* About.
+
+### Right
+
+* Search icon.
+* Wishlist icon.
+* Shopping bag icon with item count.
+
+Optional:
+
+* Account icon.
+
+### Navbar style
+
+* Warm white or cream background.
+* Dark burgundy text.
+* Thin subtle bottom border.
+* Elegant typography.
+* Spacious layout.
+* Minimal icons.
+* Clean alignment.
+
+### Mobile navbar
+
+On mobile:
+
+* Brand logo.
+* Search icon.
+* Shopping bag icon.
+* Hamburger menu.
+
+The menu should open and close smoothly.
+
+---
+
+# 8. HOMEPAGE
+
+Build the homepage in the following order.
+
+## Section 1: Announcement bar
+
+Create a slim announcement bar.
+
+Example:
+
+"Discover our new collection · Delivery available across Algeria"
+
+Use burgundy or cream.
+
+Keep it compact and elegant.
+
+This is demo content and should be easy to edit.
+
+---
+
+## Section 2: Main navbar
+
+Create the responsive navbar described above.
+
+Ensure:
+
+* Navigation works.
+* Search opens.
+* Wishlist opens.
+* Cart opens.
+* Mobile menu works.
+
+---
+
+## Section 3: Hero section
+
+Create a premium women's fashion hero section.
+
+### Layout
+
+Desktop:
+
+* Large editorial fashion image on one side.
+* Elegant text content on the other side.
+
+Text example:
+
+"Elegance in Every Detail"
+
+Supporting text:
+
+"Discover thoughtfully designed pieces made to elevate your everyday style."
+
+Buttons:
+
+* Shop New Arrivals.
+* Explore Collection.
+
+### Visual direction
+
+* Warm cream background.
+* Deep burgundy typography.
+* Elegant serif heading.
+* Large fashion photography.
+* Clean editorial composition.
+* Subtle decorative elements.
+
+The hero should look like a fashion brand campaign.
+
+Use high-quality women's clothing photography.
+
+Do not use bookstore imagery.
+
+Do not use generic technology illustrations.
+
+---
+
+## Section 4: Featured categories
+
+Create a visually elegant category section.
+
+Categories:
+
+1. Dresses.
+2. Tops.
+3. Skirts.
+4. Co-ord Sets.
+
+Each category card should include:
+
+* Fashion image.
+* Category name.
+* Short description.
+* Shop now link.
+
+Use coordinated cream, burgundy, and rose accents.
+
+Cards should be clickable.
+
+---
+
+## Section 5: New arrivals
+
+Create a premium product grid showcasing new clothing arrivals.
+
+Display 4 to 8 products depending on screen size.
+
+Each product card must include:
+
+* Product image.
+* Product name.
+* Category.
+* Price in DA.
+* Optional sale price.
+* Optional original price.
+* New badge if applicable.
+* Wishlist heart button.
+* Quick add or Add to Bag button.
+
+Example products:
+
+* Satin Midi Dress — 8,500 DA.
+* Burgundy Pleated Skirt — 5,900 DA.
+* Classic Cream Blouse — 4,500 DA.
+* Elegant Co-ord Set — 9,900 DA.
+* Everyday Wide-Leg Pants — 6,900 DA.
+* Rose Long-Sleeve Top — 4,900 DA.
+
+These are fictional demo products only.
+
+Use realistic fashion product photography.
+
+Add a "View All New Arrivals" button.
+
+---
+
+## Section 6: Editorial fashion campaign
+
+Create a large editorial promotional section inspired by the fashion brand Instagram references.
+
+Example heading:
+
+"Designed for Your Everyday Elegance"
+
+Supporting text:
+
+"Timeless silhouettes, beautiful details, and pieces made to be worn your way."
+
+Include:
+
+* Large fashion image.
+* Burgundy or cream background.
+* Elegant serif typography.
+* CTA button.
+
+Possible CTA:
+
+"Explore the Collection"
+
+This section should feel like a real fashion campaign.
+
+Do not copy the exact layout or content of the reference Instagram account.
+
+---
+
+## Section 7: Bestsellers
+
+Create a bestsellers section with a product grid or carousel.
+
+Include:
+
+* Product images.
+* Product names.
+* Prices in DA.
+* Wishlist buttons.
+* Add to Bag buttons.
+* Optional bestseller badge.
+
+Use sample women's clothing products.
+
+Keep the design consistent with the new brand palette.
+
+---
+
+## Section 8: Seasonal collection banner
+
+Create a promotional banner for a seasonal collection.
+
+Example:
+
+"Autumn / Winter Edit"
+
+or
+
+"New Season, New Silhouettes"
+
+Use:
+
+* Warm cream.
+* Burgundy typography.
+* Editorial fashion photography.
+* Shop collection button.
+
+Make the section visually strong but not cluttered.
+
+---
+
+## Section 9: Brand story / About preview
+
+Create a short brand introduction section.
+
+Example:
+
+"Made for the Modern Woman"
+
+Supporting text:
+
+"Discover pieces that bring confidence, comfort, and elegance to your everyday wardrobe."
+
+Include a button:
+
+"Discover Our Story"
+
+Link to the About page.
+
+Use an editorial image or minimal visual layout.
+
+---
+
+## Section 10: Newsletter signup
+
+Create a newsletter section.
+
+Example:
+
+"Stay in the know"
+
+"Discover new arrivals, styling inspiration, and exclusive updates."
+
+Include:
+
+* Email input.
+* Subscribe button.
+* Validation.
+* Success message.
+
+Use burgundy and cream styling.
+
+This is a simulated prototype form.
+
+Do not connect to a real email service.
+
+---
+
+## Section 11: Footer
+
+Create a premium fashion footer with:
+
+* Brand name.
+* Short description.
+* Shop links.
+* Customer service links.
+* About links.
+* Contact placeholders.
+* Instagram/social icons.
+* Newsletter link.
+* Copyright.
+
+Use deep burgundy as the footer background with readable cream text.
+
+---
+
+# 9. SHOP ALL PAGE
+
+Create a complete clothing catalog page.
+
+### Header
+
+Include:
+
+* Page title: Shop All.
+* Short description.
+* Breadcrumb.
+* Product count.
+
+### Layout
+
+Desktop:
+
+* Filter sidebar.
+* Product grid.
+* Sorting dropdown.
+
+Mobile:
+
+* Filter button.
+* Filter drawer or modal.
+* Sort dropdown.
+* Responsive product grid.
+
+### Filters
+
+Implement functional filters for:
+
+* Category.
+* Size.
+* Color.
+* Price range.
+* Availability.
+* Collection.
+
+### Sorting
+
+Include:
+
+* Featured.
+* Newest.
+* Price: Low to High.
+* Price: High to Low.
+* Bestselling.
+
+### Product grid
+
+Responsive layout:
+
+* 4 columns on large desktop.
+* 3 columns on medium screens.
+* 2 columns on mobile.
+
+No horizontal scrolling on mobile.
+
+---
+
+# 10. CATEGORY PAGES
+
+Create dedicated category pages for:
+
+* Dresses.
+* Tops.
+* Skirts.
+* Pants.
+* Co-ord Sets.
+* New Arrivals.
+
+Each category page should include:
+
+* Page header.
+* Editorial category image or banner.
+* Short description.
+* Product count.
+* Filters.
+* Sorting.
+* Product grid.
+* Wishlist.
+* Add to Bag.
+
+Use the same brand identity throughout.
+
+---
+
+# 11. PRODUCT DETAILS PAGE
+
+Create a polished fashion product details page.
+
+### Left side
+
+* Large product image.
+* Thumbnail gallery.
+* Image switching interaction.
+* Optional image zoom.
+
+### Right side
+
+* Product name.
+* Category.
+* Price in DA.
+* Optional original price.
+* Sale badge.
+* Product description.
+* Size selector.
+* Color selector.
+* Quantity selector.
+* Add to Bag button.
+* Add to Wishlist button.
+* Availability status.
+
+### Product information
+
+Include expandable sections for:
+
+* Description.
+* Materials.
+* Fit and sizing.
+* Care instructions.
+* Delivery information.
+
+Use demo content.
+
+### Functionality
+
+* Product image thumbnails change the main image.
+* Size selection works.
+* Color selection works.
+* Quantity can increase and decrease.
+* Add to Bag updates the cart.
+* Wishlist updates the wishlist.
+* Related products are clickable.
+
+For the prototype, use mock product data.
+
+---
+
+# 12. SIZE GUIDE
+
+Add a size guide modal or expandable section.
+
+Include sample sizes:
+
+* XS.
+* S.
+* M.
+* L.
+* XL.
+
+Use demo sizing information.
+
+Make it easy to edit later.
+
+The size guide should be accessible from the product details page.
+
+---
+
+# 13. CART PAGE
+
+Create a functional demo shopping bag/cart.
+
+Display:
+
+* Product image.
+* Product name.
+* Selected size.
+* Selected color.
+* Price in DA.
+* Quantity selector.
+* Remove button.
+* Subtotal.
+* Estimated delivery placeholder.
+* Total in DA.
+* Checkout button.
+
+### Functionality
+
+* Add products to cart.
+* Increase/decrease quantity.
+* Remove products.
+* Update totals automatically.
+* Cart count updates in navbar.
+* Empty cart state.
+* Continue shopping button.
+
+Checkout should be a simulated prototype flow only.
+
+Do not implement real payment processing.
+
+Do not connect to a real payment provider.
+
+---
+
+# 14. WISHLIST
+
+Create a wishlist page.
+
+Users should be able to:
+
+* Add products to wishlist.
+* Remove products.
+* View saved products.
+* Move products to cart.
+
+Use localStorage or local state persistence for the prototype.
+
+---
+
+# 15. SEARCH
+
+Implement a functional search interface.
+
+Users should be able to search for:
+
+* Product names.
+* Clothing categories.
+* Collections.
+* Colors.
+* Styles.
+
+Examples:
+
+* Dress.
+* Burgundy.
+* Skirt.
+* Cream blouse.
+* Co-ord.
+
+Display matching products in a responsive grid.
+
+Include:
+
+* Search input.
+* Search results count.
+* Empty state.
+* Clear search option.
+
+Search should work on desktop and mobile.
+
+---
+
+# 16. ABOUT US PAGE
+
+Create a premium fashion brand About page.
+
+Sections:
+
+* Brand introduction.
+* Brand story placeholder.
+* Mission and values.
+* Fashion philosophy.
+* Editorial image.
+* CTA to shop.
+
+Tone:
+
+* Elegant.
+* Feminine.
+* Personal.
+* Sophisticated.
+
+Do not invent a real company history.
+
+Use editable placeholder content.
+
+---
+
+# 17. CONTACT PAGE
+
+Create a contact page with:
+
+* Contact heading.
+* Short introduction.
+* Contact form.
+* Name.
+* Email.
+* Subject.
+* Message.
+* Submit button.
+* Contact information placeholders.
+* Social media links.
+
+Form requirements:
+
+* Required field validation.
+* Email validation.
+* Success message.
+* Error messages.
+
+This is a demo form only.
+
+Do not connect to a real email service.
+
+---
+
+# 18. REUSABLE COMPONENTS
+
+Build the website using reusable components.
+
+Required components:
+
+* Navbar.
+* Announcement bar.
+* Footer.
+* Hero section.
+* Category card.
+* Product card.
+* Product grid.
+* Product carousel.
+* Product details.
+* Price display.
+* Wishlist button.
+* Add to Bag button.
+* Quantity selector.
+* Size selector.
+* Color selector.
+* Size guide modal.
+* Search bar.
+* Filter sidebar.
+* Filter drawer.
+* Sort dropdown.
+* Newsletter form.
+* Contact form.
+* Toast notifications.
+* Empty states.
+* Loading states.
+
+Use consistent components throughout the website.
+
+Do not duplicate large amounts of UI code unnecessarily.
+
+---
+
+# 19. FUNCTIONALITY
+
+This is a functional frontend prototype, not just a static landing page.
+
+Implement:
+
+### Navigation
+
+* All navbar links work.
+* All category links work.
+* Product cards navigate to product details.
+* Footer links work where applicable.
+* Mobile menu works.
+
+### Shopping
+
+* Add to Bag.
+* Remove from Bag.
+* Quantity updates.
+* Cart totals.
+* Cart count.
+* Wishlist functionality.
+* Move wishlist item to cart.
+
+### Catalog
+
+* Search.
+* Category filtering.
+* Size filtering.
+* Color filtering.
+* Price filtering.
+* Sorting.
+* Product details navigation.
+
+### Forms
+
+* Newsletter validation.
+* Contact form validation.
+* Success and error states.
+
+### Persistence
+
+Use localStorage or equivalent client-side persistence for:
+
+* Cart.
+* Wishlist.
+
+The cart and wishlist should remain available when navigating between pages or refreshing the prototype.
+
+### Product data
+
+Create a structured mock clothing catalog.
+
+Each product should include:
+
+* id.
+* name.
+* category.
+* price.
+* currency.
+* images.
+* description.
+* available sizes.
+* available colors.
+* availability.
+* optional sale price.
+* optional collection.
+* optional materials.
+
+All prices must be in Algerian Dinar.
+
+Keep product data separate from UI components so it can easily be replaced later.
+
+---
+
+# 20. RESPONSIVE DESIGN
+
+The website must be fully responsive.
+
+### Desktop
+
+* Spacious editorial layouts.
+* Large fashion imagery.
+* Multi-column product grids.
+* Full navigation.
+* Sidebar filters.
+* Elegant whitespace.
+
+### Tablet
+
+* Adapt grid columns.
+* Reduce spacing where necessary.
+* Maintain visual hierarchy.
+* Keep navigation usable.
+
+### Mobile
+
+* Mobile-first responsive behavior.
+* Hamburger menu.
+* Two-column product grid where appropriate.
+* Full-width buttons where useful.
+* Filter drawer instead of sidebar.
+* Readable typography.
+* Proper touch target sizes.
+* No clipped text.
+* No horizontal page scrolling.
+* Product images remain attractive.
+* Cart and wishlist remain easy to access.
+
+Test approximately:
+
+* 1440px desktop.
+* 1024px tablet.
+* 768px tablet.
+* 390px mobile.
+* 320px mobile.
+
+Do not simply shrink the desktop design. Reorganize sections appropriately for mobile.
+
+---
+
+# 21. ANIMATIONS / INTERACTIONS
+
+Use subtle, premium fashion-brand interactions.
+
+Include:
+
+* Smooth hover states on buttons.
+* Product card image zoom on hover.
+* Wishlist heart animation.
+* Smooth mobile menu transition.
+* Add to Bag confirmation toast.
+* Subtle section entrance animations.
+* Smooth image transitions.
+* Button hover color changes.
+* Focus states for accessibility.
+
+Keep animations elegant and restrained.
+
+Do not use excessive bouncing, spinning, or distracting animations.
+
+Respect reduced-motion preferences where possible.
+
+---
+
+# 22. TECHNICAL REQUIREMENTS
+
+Use a modern, maintainable frontend stack suitable for Replit.
+
+Preferred stack:
+
+* React.
+* TypeScript if appropriate.
+* Vite.
+* Tailwind CSS or clean CSS architecture.
+* React Router.
+* Reusable components.
+* Structured mock product data.
+* Responsive CSS.
+* Local state management.
+
+Use Lucide React or another suitable icon library.
+
+### Code quality
+
+* Clean, readable code.
+* Reusable components.
+* Product data separate from UI.
+* Consistent styling.
+* No giant monolithic components.
+* No unnecessary duplicated code.
+* Semantic HTML.
+* Accessible buttons and forms.
+* Proper alt text.
+* Keyboard-accessible interactions.
+* No unnecessary dependencies.
+* Ensure the project runs correctly in Replit.
+* Preserve the ability to connect the project to GitHub and maintain the source code.
+
+### Prototype scope
+
+THIS IS ONLY A PROTOTYPE.
+
+Do not build:
+
+* Real payment processing.
+* Real authentication.
+* Production database.
+* Production backend.
+* Admin dashboard.
+* Real email integrations.
+* Complex deployment infrastructure.
+* Unnecessary APIs.
+
+Use mock data and simulated interactions.
+
+Structure the code so a backend can be added later if needed.
+
+---
+
+# 23. IMPORTANT CONSTRAINTS
+
+1. Build an original women's clothing e-commerce website.
+2. Use the provided palette: #662222, #842A3B, #A3485A, #F5DAA7.
+3. Use Algeria as the target market.
+4. Display all prices in Algerian Dinar (DA / DZD).
+5. Use the Nerissa Brand screenshots only as visual inspiration.
+6. Do not clone Instagram.
+7. Do not copy the fashion brand's logo, name, or exact content.
+8. Do not use bookstore or stationery imagery.
+9. Do not use generic SaaS styling.
+10. Do not make the design overly childish.
+11. Do not use excessive gradients or shadows.
+12. Do not use random unrelated images.
+13. Do not sacrifice readability for aesthetics.
+14. Do not create non-functional buttons where functionality is expected.
+15. Do not add real payments or external services.
+16. Do not invent a real brand history.
+17. Use fictional/sample product data.
+18. Make the design responsive from the beginning.
+19. Keep the code maintainable and easy to edit.
+20. Keep the scope appropriate for a prototype.
+21. Do not over-engineer the application.
+22. Do not add features that were not requested unless they clearly improve the prototype.
+
+---
+
+# 24. FINAL QUALITY CHECK
+
+Before finishing, verify:
+
+* The website has a cohesive burgundy and cream fashion identity.
+* The homepage looks premium and visually balanced.
+* The clothing categories are clear.
+* Product cards are attractive and consistent.
+* All prices display in DA.
+* Search works.
+* Filters work.
+* Sorting works.
+* Cart works.
+* Wishlist works.
+* Product details work.
+* Size selection works.
+* Color selection works.
+* Forms validate correctly.
+* Navigation works.
+* Mobile layout works.
+* No major overflow or broken layouts.
+* No broken images.
+* No console errors.
+* All important buttons have appropriate demo behavior.
+* The code remains easy to edit and maintain.
+
+Start by building the complete frontend prototype with:
+
+* Homepage.
+* Responsive navigation.
+* Shop All.
+* New Arrivals.
+* Clothing category pages.
+* Product details.
+* Cart.
+* Wishlist.
+* Search.
+* About.
+* Contact.
+
+Prioritize visual quality, usability, and a cohesive premium women's fashion brand experience.
+
+Remember:
+
+THIS IS ONLY A PROTOTYPE.
+
+Use mock data, simulated functionality, Algerian Dinar prices, and a simple maintainable implementation.
