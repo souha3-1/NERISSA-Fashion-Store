@@ -127,7 +127,6 @@ function Home() {
           <p>Pieces with presence, made to be worn often. NERISSA is a modern Algerian label for the life you actually lead.</p>
           <Link href="/new-arrivals" className="btn btn-dark" data-testid="link-hero-shop">Discover the edit <ArrowRight size={15} /></Link>
         </div>
-        <div className="hero-palette" role="img" aria-label="NERISSA editorial color composition"><span className="hero-palette-word">NERISSA<br /><small>Algiers / everyday elegance</small></span></div>
       </section>
       <div className="ticker"><span>Made in Algeria</span><span>Thoughtful materials</span><span>Small-batch pieces</span><span>Designed for repeat wear</span></div>
       <section className="section container">

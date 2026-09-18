@@ -74,11 +74,6 @@ a { color: inherit; text-decoration: none; }
 .hero-copy h1 { margin: 18px 0 22px; color: var(--rose-deep); font: 500 clamp(54px, 7.2vw, 110px)/.89 var(--app-font-serif); letter-spacing: -.065em; }
 .hero-copy h1 em { color: var(--rose); font-style: italic; }
 .hero-copy p { max-width: 300px; color: #724747; line-height: 1.7; margin: 0 0 30px; }
-.hero-palette { min-height: 650px; position: relative; overflow: hidden; background: var(--rose-deep); color: var(--saffron); }
-.hero-palette::before { content: ''; position: absolute; inset: 13% 13% 13% 10%; border: 1px solid rgba(245,218,167,.7); }
-.hero-palette::after { content: ''; position: absolute; width: 48%; aspect-ratio: 1; right: -12%; top: 13%; border-radius: 50%; background: var(--rose-soft); box-shadow: -150px 220px 0 -35px var(--saffron); }
-.hero-palette-word { position: absolute; z-index: 2; right: 12%; bottom: 18%; color: var(--warm); font: 500 20px var(--app-font-serif); letter-spacing: .18em; text-transform: uppercase; }
-.hero-palette-word small { display: block; margin-top: 10px; color: var(--saffron); font: 700 9px var(--app-font-sans); letter-spacing: .18em; }
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; width: fit-content; min-height: 47px; padding: 0 23px; border: 1px solid var(--rose-deep); cursor: pointer; text-transform: uppercase; letter-spacing: .13em; font-size: 10px; font-weight: 700; transition: background .25s ease, color .25s ease, transform .25s ease; }
 .btn:hover { transform: translateY(-2px); }
 .btn-dark { background: var(--rose-deep); color: var(--warm); }
@@ -223,7 +218,6 @@ a { color: inherit; text-decoration: none; }
   .mobile-nav a { color: var(--rose-deep); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
   .hero { grid-template-columns: 1fr; }
   .hero-copy { min-height: 480px; padding: 68px 10%; }
-  .hero-palette { min-height: 550px; }
   .products-grid { grid-template-columns: repeat(2,1fr); gap: 28px 12px; }
   .product-detail, .cart-layout { grid-template-columns: 1fr; gap: 45px; }
   .split-page { grid-template-columns: 1fr; }
@@ -238,7 +232,6 @@ a { color: inherit; text-decoration: none; }
   .nav-actions { gap: 4px; }
   .hero-copy { min-height: 430px; padding: 56px 24px; }
   .hero-copy h1 { font-size: 60px; }
-  .hero-palette { min-height: 460px; }
   .section-heading { display: block; }
   .section-heading p { margin-top: 15px; }
   .category-grid { grid-template-columns: 1fr 1fr; }
