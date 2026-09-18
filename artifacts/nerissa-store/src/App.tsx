@@ -122,7 +122,7 @@ function Home() {
     <>
       <section className="hero">
         <div className="hero-copy fade-up">
-          <span className="eyebrow">The autumn edit · 04</span>
+          <span className="eyebrow">Welcome to NERISSA · The autumn edit 04</span>
           <h1>Dress for<br /><em>your own</em><br />weather.</h1>
           <p>Pieces with presence, made to be worn often. NERISSA is a modern Algerian label for the life you actually lead.</p>
           <Link href="/new-arrivals" className="btn btn-dark" data-testid="link-hero-shop">Discover the edit <ArrowRight size={15} /></Link>
