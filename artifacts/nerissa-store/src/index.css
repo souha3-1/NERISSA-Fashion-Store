@@ -74,7 +74,7 @@ a { color: inherit; text-decoration: none; }
 .hero-copy h1 { margin: 18px 0 22px; color: var(--rose-deep); font: 500 clamp(54px, 7.2vw, 110px)/.89 var(--app-font-serif); letter-spacing: -.065em; }
 .hero-copy h1 em { color: var(--rose); font-style: italic; }
 .hero-copy p { max-width: 300px; color: #724747; line-height: 1.7; margin: 0 0 30px; }
-.hero-image { min-height: 650px; background: center / cover url('/images/hero-burgundy.jpg'); position: relative; }
+.hero-image { min-height: 650px; background: center / cover url('/images/nerissa-burgundy-stripe.png'); position: relative; }
 .hero-image::after { content: 'ALGIERS · COLLECTION 04'; position: absolute; bottom: 28px; right: 30px; color: var(--warm); font-size: 10px; letter-spacing: .2em; writing-mode: vertical-rl; transform: rotate(180deg); }
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; width: fit-content; min-height: 47px; padding: 0 23px; border: 1px solid var(--rose-deep); cursor: pointer; text-transform: uppercase; letter-spacing: .13em; font-size: 10px; font-weight: 700; transition: background .25s ease, color .25s ease, transform .25s ease; }
 .btn:hover { transform: translateY(-2px); }
@@ -109,7 +109,7 @@ a { color: inherit; text-decoration: none; }
 .product-price { color: var(--rose); font-weight: 700; }
 
 .campaign { display: grid; grid-template-columns: 1fr 1fr; min-height: 600px; background: var(--rose-deep); color: var(--warm); }
-.campaign-image { background: center / cover url('/images/editorial-ivory.jpg'); min-height: 500px; }
+.campaign-image { background: center / cover url('/images/nerissa-cream-scarf.png'); min-height: 500px; }
 .campaign-copy { display: flex; flex-direction: column; justify-content: center; padding: 80px 11%; }
 .campaign-copy .eyebrow { color: var(--saffron); }
 .campaign-copy h2 { margin: 18px 0; font: 500 clamp(38px, 5vw, 70px)/.95 var(--app-font-serif); letter-spacing: -.04em; }
@@ -121,7 +121,7 @@ a { color: inherit; text-decoration: none; }
 .quote p { max-width: 700px; margin: 16px auto 0; font: italic 500 clamp(30px, 4vw, 52px)/1.08 var(--app-font-serif); letter-spacing: -.03em; }
 .quote small { display: block; margin-top: 25px; font-size: 10px; letter-spacing: .2em; text-transform: uppercase; }
 .story-preview { display: grid; grid-template-columns: 1fr 1.1fr; align-items: center; gap: 10%; }
-.story-art { aspect-ratio: 1; background: center / cover url('/images/terracotta-look.jpg'); }
+.story-art { aspect-ratio: 1; background: center / cover url('/images/nerissa-green-polka.png'); }
 .story-copy h2 { margin: 16px 0; color: var(--rose-deep); font: 500 clamp(36px, 4vw, 58px)/.98 var(--app-font-serif); }
 .story-copy p { max-width: 420px; color: #765f5c; line-height: 1.8; }
 .story-copy .btn { margin-top: 24px; }
@@ -173,7 +173,7 @@ a { color: inherit; text-decoration: none; }
 .detail-note strong { display: block; color: var(--rose-deep); margin-bottom: 4px; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
 
 .split-page { display: grid; grid-template-columns: .8fr 1.2fr; min-height: calc(100dvh - 104px); }
-.split-art { background: center / cover url('/images/rose-blazer.jpg'); }
+.split-art { background: center / cover url('/images/nerissa-gray-blazer.png'); }
 .split-content { padding: 100px 12%; }
 .split-content h1 { margin: 15px 0 27px; color: var(--rose-deep); font: 500 clamp(46px, 6vw, 84px)/.92 var(--app-font-serif); letter-spacing: -.06em; }
 .split-content p { max-width: 525px; color: #765f5c; font-size: 16px; line-height: 1.9; }

@@ -133,9 +133,9 @@ function Home() {
       <section className="section container">
         <div className="section-heading"><div><span className="eyebrow">Find your shape</span><h2>Start with a feeling.</h2></div><p>From first coffee to last light, discover silhouettes that leave room for your life.</p></div>
         <div className="category-grid">
-          <Link href="/category/dresses" className="category-card" data-testid="link-category-dresses"><img src="/images/hero-burgundy.jpg" alt="Dresses collection" /><div className="category-label"><span>01 / The essential</span>Dresses</div></Link>
-          <Link href="/category/tops" className="category-card" data-testid="link-category-tops"><img src="/images/rose-blazer.jpg" alt="Tops collection" /><div className="category-label"><span>02 / The layer</span>Tops</div></Link>
-          <Link href="/category/co-ord-sets" className="category-card" data-testid="link-category-coords"><img src="/images/editorial-ivory.jpg" alt="Co-ord sets collection" /><div className="category-label"><span>03 / The pair</span>Co-ords</div></Link>
+          <Link href="/category/dresses" className="category-card" data-testid="link-category-dresses"><img src="/images/nerissa-burgundy-stripe.png" alt="Dresses collection" /><div className="category-label"><span>01 / The essential</span>Dresses</div></Link>
+          <Link href="/category/tops" className="category-card" data-testid="link-category-tops"><img src="/images/nerissa-gray-blazer.png" alt="Tops collection" /><div className="category-label"><span>02 / The layer</span>Tops</div></Link>
+          <Link href="/category/co-ord-sets" className="category-card" data-testid="link-category-coords"><img src="/images/nerissa-cream-scarf.png" alt="Co-ord sets collection" /><div className="category-label"><span>03 / The pair</span>Co-ords</div></Link>
         </div>
       </section>
       <section className="section container">
