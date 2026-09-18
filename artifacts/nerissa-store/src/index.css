@@ -114,14 +114,7 @@ a { color: inherit; text-decoration: none; }
 .product-meta { display: flex; justify-content: space-between; gap: 10px; margin-top: 6px; color: #765f5c; font-size: 12px; }
 .product-price { color: var(--rose); font-weight: 700; }
 
-.campaign { display: grid; grid-template-columns: 1fr 1fr; min-height: 600px; background: var(--rose-deep); color: var(--warm); }
-.campaign-palette { min-height: 500px; position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: space-between; padding: 38px; background: var(--saffron); color: var(--rose-deep); }
-.campaign-palette::before { content: ''; position: absolute; width: 62%; aspect-ratio: 1; top: 16%; left: 18%; border: 1px solid var(--rose-deep); border-radius: 50%; }
-.campaign-palette::after { content: ''; position: absolute; width: 32%; height: 64%; right: 8%; bottom: -20%; background: var(--rose-soft); transform: rotate(28deg); }
-.campaign-palette span, .campaign-palette strong { position: relative; z-index: 1; }
-.campaign-palette span { font-size: 10px; font-weight: 700; letter-spacing: .2em; }
-.campaign-palette strong { align-self: flex-end; margin-right: 8%; font: 500 clamp(55px, 7vw, 96px)/.85 var(--app-font-serif); letter-spacing: -.06em; }
-.campaign-palette em { color: var(--rose); }
+.campaign { min-height: 600px; background: var(--rose-deep); color: var(--warm); }
 .campaign-copy { display: flex; flex-direction: column; justify-content: center; padding: 80px 11%; }
 .campaign-copy .eyebrow { color: var(--saffron); }
 .campaign-copy h2 { margin: 18px 0; font: 500 clamp(38px, 5vw, 70px)/.95 var(--app-font-serif); letter-spacing: -.04em; }
@@ -240,8 +233,6 @@ a { color: inherit; text-decoration: none; }
   .hero-copy { min-height: 480px; padding: 68px 10%; }
   .hero-palette { min-height: 550px; }
   .products-grid { grid-template-columns: repeat(2,1fr); gap: 28px 12px; }
-  .campaign { grid-template-columns: 1fr; }
-  .campaign-palette { min-height: 480px; }
   .product-detail, .cart-layout { grid-template-columns: 1fr; gap: 45px; }
   .split-page { grid-template-columns: 1fr; }
   .split-art { min-height: 500px; }
