@@ -132,14 +132,6 @@ a { color: inherit; text-decoration: none; }
 .quote { padding: 120px 20px; text-align: center; background: #eac3ad; color: var(--rose-deep); }
 .quote p { max-width: 700px; margin: 16px auto 0; font: italic 500 clamp(30px, 4vw, 52px)/1.08 var(--app-font-serif); letter-spacing: -.03em; }
 .quote small { display: block; margin-top: 25px; font-size: 10px; letter-spacing: .2em; text-transform: uppercase; }
-.story-preview { display: grid; grid-template-columns: 1fr 1.1fr; align-items: center; gap: 10%; }
-.story-art { position: relative; display: flex; align-items: center; justify-content: center; aspect-ratio: 1; overflow: hidden; background: var(--rose-soft); color: var(--saffron); }
-.story-art::before { content: ''; position: absolute; width: 75%; aspect-ratio: 1; border: 1px solid rgba(245,218,167,.8); transform: rotate(45deg); }
-.story-art-mark { position: relative; z-index: 1; font: 500 190px/.8 var(--app-font-serif); letter-spacing: -.18em; }
-.story-art-caption { position: absolute; z-index: 1; right: 8%; bottom: 8%; color: var(--warm); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; text-align: right; }
-.story-copy h2 { margin: 16px 0; color: var(--rose-deep); font: 500 clamp(36px, 4vw, 58px)/.98 var(--app-font-serif); }
-.story-copy p { max-width: 420px; color: #765f5c; line-height: 1.8; }
-.story-copy .btn { margin-top: 24px; }
 .newsletter { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 40px; padding: 72px 8%; background: var(--rose); color: var(--warm); }
 .newsletter h2 { margin: 8px 0; font: 500 38px var(--app-font-serif); }
 .newsletter p { max-width: 360px; color: #eacfc2; line-height: 1.6; }
@@ -250,8 +242,6 @@ a { color: inherit; text-decoration: none; }
   .products-grid { grid-template-columns: repeat(2,1fr); gap: 28px 12px; }
   .campaign { grid-template-columns: 1fr; }
   .campaign-palette { min-height: 480px; }
-  .story-preview { grid-template-columns: 1fr; gap: 45px; }
-  .story-art { width: min(100%, 500px); }
   .product-detail, .cart-layout { grid-template-columns: 1fr; gap: 45px; }
   .split-page { grid-template-columns: 1fr; }
   .split-art { min-height: 500px; }

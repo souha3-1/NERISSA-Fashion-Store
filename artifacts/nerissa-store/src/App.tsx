@@ -151,10 +151,6 @@ function Home() {
         <div className="section-heading"><div><span className="eyebrow">The pieces women return to</span><h2>Quiet favourites.</h2></div><Link className="btn btn-quiet" href="/shop" data-testid="link-home-bestsellers">Shop bestsellers <ArrowRight size={15} /></Link></div>
         <ProductGrid items={bestsellers} />
       </section>
-      <section className="section container story-preview">
-        <div className="story-art" role="img" aria-label="NERISSA rose and cream editorial color composition"><span className="story-art-mark">N</span><span className="story-art-caption">A local pulse<br />since 2024</span></div>
-        <div className="story-copy"><span className="eyebrow">From Algiers, with care</span><h2>A label with a local pulse.</h2><p>NERISSA began with a simple question: what would an elegant, expressive wardrobe look like if it was designed around real Algerian life? The answer is here—in generous cuts, tactile fabrics, and colours that belong to our light.</p><Link href="/about" className="btn btn-dark" data-testid="link-home-about">Meet NERISSA <ArrowRight size={15} /></Link></div>
-      </section>
       <Newsletter />
     </>
   );
