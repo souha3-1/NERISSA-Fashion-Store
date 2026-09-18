@@ -127,15 +127,15 @@ function Home() {
           <p>Pieces with presence, made to be worn often. NERISSA is a modern Algerian label for the life you actually lead.</p>
           <Link href="/new-arrivals" className="btn btn-dark" data-testid="link-hero-shop">Discover the edit <ArrowRight size={15} /></Link>
         </div>
-        <div className="hero-image" role="img" aria-label="Woman wearing the NERISSA burgundy silk dress" />
+        <div className="hero-palette" role="img" aria-label="NERISSA editorial color composition"><span className="hero-palette-number">04</span><span className="hero-palette-word">NERISSA<br /><small>Algiers / everyday elegance</small></span></div>
       </section>
       <div className="ticker"><span>Made in Algeria</span><span>Thoughtful materials</span><span>Small-batch pieces</span><span>Designed for repeat wear</span></div>
       <section className="section container">
         <div className="section-heading"><div><span className="eyebrow">Find your shape</span><h2>Start with a feeling.</h2></div><p>From first coffee to last light, discover silhouettes that leave room for your life.</p></div>
         <div className="category-grid">
-          <Link href="/category/dresses" className="category-card" data-testid="link-category-dresses"><img src="/images/nerissa-burgundy-stripe.png" alt="Dresses collection" /><div className="category-label"><span>01 / The essential</span>Dresses</div></Link>
-          <Link href="/category/tops" className="category-card" data-testid="link-category-tops"><img src="/images/nerissa-gray-blazer.png" alt="Tops collection" /><div className="category-label"><span>02 / The layer</span>Tops</div></Link>
-          <Link href="/category/co-ord-sets" className="category-card" data-testid="link-category-coords"><img src="/images/nerissa-cream-scarf.png" alt="Co-ord sets collection" /><div className="category-label"><span>03 / The pair</span>Co-ords</div></Link>
+          <Link href="/category/dresses" className="category-card" data-testid="link-category-dresses"><div className="category-initial">D</div><div className="category-label"><span>01 / The essential</span>Dresses</div></Link>
+          <Link href="/category/tops" className="category-card" data-testid="link-category-tops"><div className="category-initial">T</div><div className="category-label"><span>02 / The layer</span>Tops</div></Link>
+          <Link href="/category/co-ord-sets" className="category-card" data-testid="link-category-coords"><div className="category-initial">C</div><div className="category-label"><span>03 / The pair</span>Co-ords</div></Link>
         </div>
       </section>
       <section className="section container">
@@ -143,7 +143,7 @@ function Home() {
         <ProductGrid items={arrivals} />
       </section>
       <section className="campaign">
-        <div className="campaign-image" role="img" aria-label="Ivory linen NERISSA co-ord in a sunlit studio" />
+        <div className="campaign-palette" role="img" aria-label="NERISSA burgundy and cream editorial color composition"><span>NERISSA / 04</span><strong>Soft<br /><em>structure</em></strong></div>
         <div className="campaign-copy"><span className="eyebrow">A quiet confidence</span><h2>For the days that become nights.</h2><p>Our fourth collection is a study in contrasts: soft against structured, ease against intention, a wardrobe that keeps its promises.</p><Link href="/about" className="btn" data-testid="link-campaign-story">Read the story <ArrowRight size={15} /></Link></div>
       </section>
       <section className="quote"><span className="eyebrow">The NERISSA point of view</span><p>“The best piece in your wardrobe is the one that already knows how you move.”</p><small>— Samia Aït Ali, founder</small></section>
@@ -152,7 +152,7 @@ function Home() {
         <ProductGrid items={bestsellers} />
       </section>
       <section className="section container story-preview">
-        <div className="story-art" role="img" aria-label="Terracotta pleated NERISSA look" />
+        <div className="story-art" role="img" aria-label="NERISSA rose and cream editorial color composition"><span className="story-art-mark">N</span><span className="story-art-caption">A local pulse<br />since 2024</span></div>
         <div className="story-copy"><span className="eyebrow">From Algiers, with care</span><h2>A label with a local pulse.</h2><p>NERISSA began with a simple question: what would an elegant, expressive wardrobe look like if it was designed around real Algerian life? The answer is here—in generous cuts, tactile fabrics, and colours that belong to our light.</p><Link href="/about" className="btn btn-dark" data-testid="link-home-about">Meet NERISSA <ArrowRight size={15} /></Link></div>
       </section>
       <Newsletter />
