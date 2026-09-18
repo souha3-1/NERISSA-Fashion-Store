@@ -141,7 +141,6 @@ function Home() {
         <div className="section-heading"><div><span className="eyebrow">Just in</span><h2>New, not noisy.</h2></div><Link className="btn btn-quiet" href="/new-arrivals" data-testid="link-home-new-arrivals">See all arrivals <ArrowRight size={15} /></Link></div>
         <ProductGrid items={arrivals} />
       </section>
-      <section className="quote"><span className="eyebrow">The NERISSA point of view</span><p>“The best piece in your wardrobe is the one that already knows how you move.”</p><small>— Samia Aït Ali, founder</small></section>
       <section className="section container">
         <div className="section-heading"><div><span className="eyebrow">The pieces women return to</span><h2>Quiet favourites.</h2></div><Link className="btn btn-quiet" href="/shop" data-testid="link-home-bestsellers">Shop bestsellers <ArrowRight size={15} /></Link></div>
         <ProductGrid items={bestsellers} />
