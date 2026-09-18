@@ -122,12 +122,12 @@ function Home() {
     <>
       <section className="hero">
         <div className="hero-copy fade-up">
-          <span className="eyebrow">The autumn edit · 04</span>
+          <span className="eyebrow">The autumn edit</span>
           <h1>Dress for<br /><em>your own</em><br />weather.</h1>
           <p>Pieces with presence, made to be worn often. NERISSA is a modern Algerian label for the life you actually lead.</p>
           <Link href="/new-arrivals" className="btn btn-dark" data-testid="link-hero-shop">Discover the edit <ArrowRight size={15} /></Link>
         </div>
-        <div className="hero-palette" role="img" aria-label="NERISSA editorial color composition"><span className="hero-palette-number">04</span><span className="hero-palette-word">NERISSA<br /><small>Algiers / everyday elegance</small></span></div>
+        <div className="hero-palette" role="img" aria-label="NERISSA editorial color composition"><span className="hero-palette-word">NERISSA<br /><small>Algiers / everyday elegance</small></span></div>
       </section>
       <div className="ticker"><span>Made in Algeria</span><span>Thoughtful materials</span><span>Small-batch pieces</span><span>Designed for repeat wear</span></div>
       <section className="section container">
@@ -143,7 +143,7 @@ function Home() {
         <ProductGrid items={arrivals} />
       </section>
       <section className="campaign">
-        <div className="campaign-palette" role="img" aria-label="NERISSA burgundy and cream editorial color composition"><span>NERISSA / 04</span><strong>Soft<br /><em>structure</em></strong></div>
+        <div className="campaign-palette" role="img" aria-label="NERISSA burgundy and cream editorial color composition"><span>NERISSA / ALGIERS</span><strong>Soft<br /><em>structure</em></strong></div>
         <div className="campaign-copy"><span className="eyebrow">A quiet confidence</span><h2>For the days that become nights.</h2><p>Our fourth collection is a study in contrasts: soft against structured, ease against intention, a wardrobe that keeps its promises.</p><Link href="/about" className="btn" data-testid="link-campaign-story">Read the story <ArrowRight size={15} /></Link></div>
       </section>
       <section className="quote"><span className="eyebrow">The NERISSA point of view</span><p>“The best piece in your wardrobe is the one that already knows how you move.”</p><small>— Samia Aït Ali, founder</small></section>
